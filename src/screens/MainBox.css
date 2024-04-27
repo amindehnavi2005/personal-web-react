@@ -1,0 +1,17 @@
+.mainBox {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 7.5vw;
+    /* background-color: rgba(0, 0, 0, .2); */
+    color: white;
+}
+
+.mainBoxContainer {
+    height: 100%;
+    margin-top: 5vh;
+    background-color: black;
+    border-radius: 15px;
+}

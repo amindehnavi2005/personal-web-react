@@ -1,0 +1,71 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 1vw;
+    margin-right: 7.5vw;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.sidebarAvatarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarAvatarImg {
+    height: 90%;
+    width: 90%;
+    border-radius: 7.5px;
+    background-size: cover;
+    border-top: .25vh solid #FFCC00;
+    box-shadow: 2px 4px 10px rgba(255, 255, 255, .3);
+    transition: all 1s ease;
+}
+
+.sidebarAvatarImg:hover {
+    width: 92.5%;
+}
+
+.sidebarMenuItem {
+    display: flex;
+    width: 90%;
+    color: white;
+    align-items: center;
+    list-style-type: none;
+    margin: 1vh 5%;
+    padding: 5% 4%;
+    border: none;
+    border-radius: 5px;
+    border-right: 2px solid #1A1A1A;
+    border-bottom: 2px solid #1A1A1A;
+    background-color: black;
+    transition: all .5s ease-in;
+}
+
+.sidebarMenuItemIcon {
+    height: 25px;
+    padding: .5%;
+    border-radius: 5px;
+    margin-left: .5vw;
+    background-color: #FFCC00;
+    transition: all .5s ease;
+}
+
+.sidebarMenuItemText {
+    display: flex;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebarMenuItem:hover {
+    background-color: white;
+    color: black;
+}
+
+.sidebarMenuItem:hover .sidebarMenuItemIcon {
+    height: 30px;
+}

@@ -1,0 +1,78 @@
+.mainHeader {
+    display: flex;
+    background-color: black;
+    padding: 1vh 1vw;
+    border-top: .5vh solid #FFCC00;
+    border-radius: 5px;
+}
+
+.mainHeaderRightPane {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+
+}
+
+.mainHeaderEmptyPane {
+    flex: 1;
+}
+
+.mainHeaderLeftPane {
+    display: flex;
+    flex: 1;
+}
+
+.mainHeaderJobTag {
+    height: 5vh;
+    align-self: center;
+    background-color: rgba(255, 204, 0, .8);
+    padding: 1%;
+    border-radius: 5px;
+    color: black;
+}
+
+.socialMediaContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.socialMediaIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 35px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.instagramIcon {
+    background-color: pink;
+}
+
+.telegramIcon {
+    background-color: cadetblue;
+}
+
+.facebookIcon {
+    background-color: cornflowerblue;
+}
+
+.socialMediaImg {
+    height: 2.5vh;
+}
+
+.mainHeaderButtonSection {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.downloadResumeButton {
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 5px;
+    padding: 5%;
+    font-family: "lalezar";
+}

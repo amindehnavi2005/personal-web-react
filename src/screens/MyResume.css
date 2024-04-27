@@ -1,0 +1,84 @@
+.records,
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.eductionalRecords {
+    flex: 1;
+}
+
+.workExperienceCard {
+    margin-top: 3vh;
+    border-radius: 7.5px;
+    padding: 2%;
+    border-right: .25vw solid #FFCC00;
+    background-color: #1a1a1a;
+}
+
+.workExperienceTitle {
+    margin-bottom: 2vh;
+}
+
+.workExperienceDate {
+    text-align: center;
+    padding: .75%;
+    background-color: rgba(255, 204, 0, .8);
+    border-radius: 7.5px;
+    color: black;
+}
+
+.workExperienceDetail {
+    margin: 2vh 0;
+}
+
+.textGold {
+    color: #FFCC00;
+}
+
+.workExperienceRecords {
+    flex: 1;
+    margin-right: 2vw;
+}
+
+.otherSkills {
+    flex: 1;
+}
+
+.programSkills {
+    flex: 1;
+    margin-right: 2.5vw;
+}
+
+.skillsProgressBarContainer {
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.skillsProgressBar {
+    background-color: #1a1a1a;
+    height: 2vh;
+    width: 100%;
+    margin-top: 2vh;
+    border-radius: 10px;
+}
+
+.skillsProgressBarTitles {
+    display: flex;
+}
+
+.skillsProgressBarTitles p {
+    flex: 1;
+}
+
+.skillsProgressBarTitles :last-child {
+    text-align: end;
+}
+
+.progressBar {
+    height: 100%;
+    border-radius: 10px;
+    background-color: #FFCC00;
+}

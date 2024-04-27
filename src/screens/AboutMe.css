@@ -1,0 +1,101 @@
+.aboutMe {
+    margin: 5vh 2vw;
+}
+
+.aboutMeCard {
+    display: flex;
+    padding: 2%;
+    background-image: url("../../public/assets/bg-main2.jpg");
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.aboutMeCardDetail {
+    flex: 1;
+}
+
+.aboutMeCardImg {
+    display: flex;
+    justify-content: end;
+    flex: 1;
+}
+
+.aboutMeCardTitle {
+    margin-top: 5vh;
+    margin-bottom: 1.5vh;
+    color: #FFCC00;
+}
+
+.aboutMeCardButton {
+    margin-top: 2.5vh;
+    background-color: #FFCC00;
+    border: none;
+    padding: 2% 4%;
+    border-radius: 5px;
+}
+
+.personBackground {
+    height: 100%;
+    width: 75%;
+    border-radius: 50%;
+    background-image: url('../../public/assets/bg-main2.jpg');
+    background-size: cover;
+    box-shadow: 2px 4px 10px rgba(255, 255, 255, .5);
+    transform: scale(-1, 1);
+}
+
+.aboutMeDetail,
+.aboutMeBasicInformation {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5vh 0;
+}
+
+.aboutMeSubTitle {
+    margin: 2.5vh 0;
+}
+
+.textColorGold {
+    color: #FFCC00;
+}
+
+.aboutMeBasicInformationTextContainer {
+    display: flex;
+}
+
+.aboutMeBasicInformationText {
+    flex: 1;
+    margin-top: 3vh;
+}
+
+.basicInformationSubTitle {
+    color: darkgray;
+}
+
+.aboutMeTaskBoxesContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.TaskBoxTopSection {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.taskBoxNumber {
+    font-size: xx-large;
+}
+
+.taskBoxText {
+    margin-top: 1vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.taskBoxImg {
+    height: 8vh;
+    border-radius: 10px;
+    background-color: #FFCC00;
+    margin-left: 1vw;
+}

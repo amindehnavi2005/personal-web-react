@@ -1,0 +1,67 @@
+.myServices {
+    margin: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.servicesCardRow {
+    display: flex;
+    margin-top: 2.5vh;
+}
+
+.serviceCard {
+    display: flex;
+    width: 50%;
+    padding: 2%;
+    margin: 0 2%;
+    border-radius: 5px;
+}
+
+.serviceCardDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1vh 1vw;
+}
+
+.serviceIcon {
+    height: 15vh;
+}
+
+.customersComment {
+    margin-top: 5vh;
+}
+
+.customersCommentText {
+    margin-bottom: 7.5vh;
+}
+
+.userCommentRow {
+    display: flex;
+}
+
+.userCommentBox {
+    position: relative;
+    width: 50%;
+    margin: 7.5vh 1vw;
+}
+
+.userImage {
+    position: absolute;
+    bottom: 75%;
+    right: 5%;
+    height: 11vh;
+    border-radius: 10px;
+    border-top: .5vh solid #FFCC00;
+}
+
+
+.userCommentCard {
+    border-top: .5vh solid #FFCC00;
+    border-radius: 10px;
+    padding: 3% 2%;
+    background-color: #1a1a1a;
+}
+
+.userCommentText {
+    padding-top: 2.5vh;
+}
